@@ -1,0 +1,25 @@
+class Song:
+    def __init__(self, title, artist, album, duration, track_number, writers, producers, lyrics):
+        self.title = title
+        self.artist = artist
+        self.album = album
+        self.duration = duration
+        self.track_number = track_number
+        self.writers = writers
+        self.producers = producers
+        self.lyrics = lyrics
+
+    def __str__(self):
+        return f"'{self.title}' by {self.artist} from the album '{self.album}' ({self.release_year})"
+
+    def get_song_info(self):
+        return {
+            "Title": self.title,
+            "Artist": self.artist,
+            "Album": self.album,
+            "Duration": self.duration,
+            "Track Number": self.track_number,
+            "Writers": self.writers,
+            "Producers": self.producers,
+            "Lyrics": self.lyrics,
+        }

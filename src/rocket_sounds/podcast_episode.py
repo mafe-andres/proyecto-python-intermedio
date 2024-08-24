@@ -1,10 +1,10 @@
-class PodcastEpisode:
-    def __init__(self, title, host, podcast, release_date, duration, episode_number, description, guests):
-        self.title = title
-        self.host = host
+from media import Media
+
+class PodcastEpisode(Media):
+    def __init__(self, title, host, podcast, release_date, duration, episode_number, description, guests, file):
+        super().__init__(title, host, duration, file)
         self.podcast = podcast
         self.release_date = release_date
-        self.duration = duration
         self.episode_number = episode_number
         self.description = description
         self.guests = guests

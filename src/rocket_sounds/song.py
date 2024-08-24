@@ -1,9 +1,9 @@
-class Song:
-    def __init__(self, title, artist, album, duration, track_number, writers, producers, lyrics):
-        self.title = title
-        self.artist = artist
+from media import Media
+
+class Song(Media):
+    def __init__(self, title, artist, album, duration, track_number, writers, producers, lyrics, file):
+        super().__init__(title, artist, duration, file)
         self.album = album
-        self.duration = duration
         self.track_number = track_number
         self.writers = writers
         self.producers = producers

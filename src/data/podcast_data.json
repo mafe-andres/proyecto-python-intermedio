@@ -12,7 +12,8 @@
             "duration": "25:30",
             "episode_number": 1500,
             "description": "This episode explores the latest political developments and their implications for the upcoming election.",
-            "guests": ["Jane Doe", "John Smith"]
+            "guests": ["Jane Doe", "John Smith"],
+            "file": ""
           }
         ]
       },
@@ -28,7 +29,8 @@
             "duration": "50:15",
             "episode_number": 2003,
             "description": "An in-depth discussion about the history and mechanics of air conditioning.",
-            "guests": []
+            "guests": [],
+            "file": ""
           }
         ]
       },
@@ -44,7 +46,8 @@
             "duration": "45:00",
             "episode_number": 36,
             "description": "A detailed investigation into the mysterious disappearance of a college student in 1999.",
-            "guests": ["Detective Mike Brown"]
+            "guests": ["Detective Mike Brown"],
+            "file": ""
           }
         ]
       }

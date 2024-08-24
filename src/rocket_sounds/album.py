@@ -21,3 +21,4 @@ class Album:
 
     def __str__(self):
         return f"Album: '{self.title}' by {self.artist} ({self.release_year})"
+    

@@ -13,7 +13,8 @@
           "track_number": 11,
           "writers": ["Freddie Mercury"],
           "producers": ["Roy Thomas Baker", "Queen"],
-          "lyrics": "Is this the real life? Is this just fantasy? Caught in a landslide, no escape from reality..."
+          "lyrics": "Is this the real life? Is this just fantasy? Caught in a landslide, no escape from reality...",
+          "file": ""
         }
       ]
     },
@@ -30,7 +31,8 @@
           "track_number": 1,
           "writers": ["John Lennon"],
           "producers": ["John Lennon", "Yoko Ono", "Phil Spector"],
-          "lyrics": "Imagine there's no heaven, It's easy if you try, No hell below us, Above us only sky..."
+          "lyrics": "Imagine there's no heaven, It's easy if you try, No hell below us, Above us only sky...",
+          "file": ""
         }
       ]
     },
@@ -47,7 +49,8 @@
           "track_number": 1,
           "writers": ["Don Felder", "Don Henley", "Glenn Frey"],
           "producers": ["Bill Szymczyk"],
-          "lyrics": "On a dark desert highway, cool wind in my hair, Warm smell of colitas, rising up through the air..."
+          "lyrics": "On a dark desert highway, cool wind in my hair, Warm smell of colitas, rising up through the air...",
+          "file": ""
         }
       ]
     }

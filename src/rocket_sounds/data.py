@@ -33,7 +33,8 @@ class Data:
                     duration=episode_data['duration'],
                     episode_number=episode_data['episode_number'],
                     description=episode_data['description'],
-                    guests=episode_data['guests']
+                    guests=episode_data['guests'],
+                    file=episode_data['file']
                 )
                 podcast.add_episode(episode)
                 podcast_episodes_list.append(episode)
@@ -66,7 +67,8 @@ class Data:
                     track_number=track_data['track_number'],
                     writers=track_data['writers'],
                     producers=track_data['producers'],
-                    lyrics=track_data['lyrics']
+                    lyrics=track_data['lyrics'],
+                    file=track_data['file']
                 )
                 songs_list.append(track)
                 album.add_track(track)

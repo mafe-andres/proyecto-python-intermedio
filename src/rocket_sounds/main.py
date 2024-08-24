@@ -1,9 +1,13 @@
 import os
 import json
+import random
 from data import Data
 
-def shuffle():
-    pass
+def shuffle(data):
+    media = data.songs + data.podcast_episodes
+    random.shuffle(media)
+    for m in media:
+        m.play()
 
 def playlists():
     pass
@@ -50,7 +54,7 @@ def menu():
         
         choice = input("Choose an option: ")
         if choice == '1':
-            shuffle()
+            shuffle(data)
         elif choice == '2':
             playlists()
         elif choice == '3':
